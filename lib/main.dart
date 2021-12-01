@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/studens',
+      initialRoute: '/students',
       routes: {
-        '/studens': (_) => const StudentsPage(),
-        '/student/crud': (_) => const StudentFormPage(),
+        '/students': (_) => const StudentsPage(),
+        // '/student/crud': (_) => const StudentFormPage(),
       },
     );
   }
